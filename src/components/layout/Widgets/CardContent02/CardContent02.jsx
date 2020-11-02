@@ -21,7 +21,7 @@ export default props => {
 
         <div className="Title">
           <h1>
-            <strong>ABOUT MEE</strong>
+            <strong>ABOUT MEE OI</strong>
             <img className="thickLine" src={image02}></img>
           </h1>
         </div>
