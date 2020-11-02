@@ -1,0 +1,32 @@
+
+
+.Content {
+  /*border: 3px solid #000;
+  border-radius: 10px;*/
+  overflow: hidden;
+
+  display: block;
+  flex-direction: row;
+  background: #202020 ;
+
+  background: #1e130c;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #9a8478, #272727);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #9a8478, #272727); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+
+  color: #fff;
+  font-size: large;
+
+
+
+  
+  
+}
+
+.imageTruck {
+  margin-top: 6%;
+  width: 30%;
+  height: 30%;
+  margin-right: -2%;
+}
+

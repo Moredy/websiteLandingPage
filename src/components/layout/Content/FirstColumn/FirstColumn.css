@@ -1,0 +1,27 @@
+
+
+.FirstColumn {
+  float: left;
+  margin-left:20%;
+  margin-top: 10%;
+  font-family: 'Zilla Slab Highlight', cursive;
+  height: 400px;
+}
+
+.FirstColumn h1{
+  color:#fff;
+  font-size: 46px;
+}
+
+.FirstColumn p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  letter-spacing: 4px;
+}
+
+
+
+.MuiButtonBase-root:disabled {
+  cursor: not-allowed;
+  pointer-events: auto;
+ }

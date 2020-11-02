@@ -1,0 +1,18 @@
+
+.BoarDown {
+  margin-top: 450px;
+  float: right;
+ 
+}
+
+.BoarDown a {
+  transform: rotate(-90deg);
+  margin-right: 2px;
+  margin-bottom: 25px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  padding: 15px;
+  color: #fff;
+  display: block;
+  text-decoration: none;
+}

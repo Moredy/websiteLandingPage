@@ -1,0 +1,15 @@
+.Content03 {
+  height: 950px;
+
+  background: #1e130c;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #9a8478, #202020);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #202020, #6e5f56); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-family: 'Zilla Slab Highlight', cursive;
+  
+}
+
+.Content03 h1{
+  margin-top: 75px;
+  color: WHITE;
+
+}

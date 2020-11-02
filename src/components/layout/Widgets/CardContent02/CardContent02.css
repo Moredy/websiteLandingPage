@@ -1,0 +1,55 @@
+.Card {
+  width: 700px;
+  height: 500px;
+  /*border: 3px solid #000;
+  border-radius: 10px;*/
+  font-family: 'Oswald', sans-serif;
+  display: flex;
+  text-align: left;
+  margin-left: 23%;
+}
+
+.Frame {
+  margin-top: 80px;
+}
+
+.FrameBorder {
+
+
+  overflow: visible;
+  border: 3px solid rgb(218, 218, 218);
+  background: #f3f3eb(255, 255, 255);
+  margin-right: auto;
+  padding: 10px 30px;
+  float: left;
+
+
+}
+
+
+
+.FrameBorder .CardImage {
+  width: 300px;
+  height: 500px;
+  margin-top: -50px;
+  margin-left: -90px;
+  
+  
+}
+
+.CardContent{
+  margin-left: 70px;
+}
+
+.CardContent .Paragraph {
+  color: #505050;
+  width: 180%;
+
+}
+
+
+.CardContent .Title .thickLine {
+float: left;
+width: 140%;
+}
+
