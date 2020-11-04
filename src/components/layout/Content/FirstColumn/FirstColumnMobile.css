@@ -1,0 +1,26 @@
+
+
+.FirstColumnMobile {
+  float: left;
+  margin-left:20%;
+  margin-top: 7%;
+  font-family: 'Zilla Slab Highlight', cursive;
+}
+
+.FirstColumnMobile h1{
+  color:#fff;
+  font-size: 46px;
+}
+
+.FirstColumnMobile p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  letter-spacing: 4px;
+}
+
+
+
+.MuiButtonBase-root:disabled {
+  cursor: not-allowed;
+  pointer-events: auto;
+ }

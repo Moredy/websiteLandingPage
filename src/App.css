@@ -1,16 +1,7 @@
-.App {
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-
-  background: #ff2e2e;
-	display: flex;
-	align-items: top;
-	justify-content: center;
-  min-height: 100vh;
-}
-
 
 html {
   scroll-behavior: smooth;
+
+
+
 }

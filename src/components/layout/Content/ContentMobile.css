@@ -1,0 +1,23 @@
+
+
+.ContentMobile {
+  /*border: 3px solid #000;
+  border-radius: 10px;*/
+  overflow: hidden;
+  display: block;
+  flex-direction: column;
+
+
+  color: #fff;
+  font-size: large;
+  
+}
+
+.imageTruckMobile {
+  width: 70%;
+  height: 70%;
+  margin: auto;
+}
+
+
+

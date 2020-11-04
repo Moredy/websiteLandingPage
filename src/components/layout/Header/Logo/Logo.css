@@ -7,6 +7,10 @@
 
 }
 
+.LogoMobile {
+  display: none;
+}
+
 .logoImage {
   height: 40%;
   width: 40%;
