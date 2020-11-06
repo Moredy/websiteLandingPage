@@ -1,12 +1,11 @@
 
 
 .Content {
-  /*border: 3px solid #000;
-  border-radius: 10px;*/
   overflow: hidden;
 
   display: block;
   flex-direction: row;
+
   background: #202020 ;
 
   background: #1e130c;  /* fallback for old browsers */

@@ -1,0 +1,29 @@
+.Page {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+
+	display: flex;
+	align-items: top;
+	justify-content: center;
+  min-height: 100vh;
+}
+
+.PageMobile {
+
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+
+	display: flex;
+	align-items: top;
+	justify-content: center;
+  min-height: 100vh;
+
+  background: #1e130c;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #9a8478, #272727);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #9a8478, #272727); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+
+}
+

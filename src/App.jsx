@@ -1,6 +1,8 @@
 import './App.css';
 import LandingPage from './LandingPage'
 
+import Page from './Page';
+
 //Verifica se o aparelho que está se conectando é um mobile.
 function detectar_mobile() {
   var check = false; //wrapper no check
@@ -12,10 +14,14 @@ function detectar_mobile() {
 function App() {
   return (
 
-    
+    <Page></Page>
+
+    /*
     <div className="App">
       <LandingPage mobile={detectar_mobile()}></LandingPage>
     </div>
+    */
+
   );
 }
 
