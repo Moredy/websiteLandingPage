@@ -60,16 +60,16 @@ export default class FooterBlock extends React.Component {
 
 
 
-          <a href="#Header">Home</a>
+          <a href="../../#Header">Home</a>
 
 
-          <a href="#FrameContent">About us</a>
+          <a href="../../#FrameContent">About us</a>
 
 
-          <a href="#Content03">Services</a>
+          <a href="../../#Content03">Services</a>
 
 
-          <a href="#Content04">Contact</a>
+          <a href="../../#Content04">Contact</a>
 
 
 

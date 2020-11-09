@@ -1,0 +1,13 @@
+.Header {
+  /*border: 3px solid #000;
+  border-radius: 10px;*/
+  background-color: #202020 ;
+  width: 100%;
+  display: block;
+  flex-direction: row;
+  min-width: 300px;
+  color: #fff;
+  position: relative;
+  top: 00px;
+}
+

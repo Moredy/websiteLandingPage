@@ -13,9 +13,9 @@ export default props => {
 
   return (
 
-    <div id="Content03" className={Content03}>
+    <div ref={props.scrollRef} id="Content03" className={Content03}>
 
-        <h1><strong>CONFIRA ALGUNS DE MEUS PROJETOS</strong></h1>
+        <h1><strong>CONFIRA ALGUNS DE NOSSOS SERVIÇOS</strong></h1>
 
        <Portfolio></Portfolio>
   

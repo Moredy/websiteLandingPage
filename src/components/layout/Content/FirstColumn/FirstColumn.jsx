@@ -14,8 +14,9 @@ export default props => {
   return (
     <div className={FirstColumn}>
 
-      <h1>I' M MORED DOPE</h1>
-      <p>WEB DEVELOPER</p>
+      <h1>Eng. Maurício Marques</h1>
+      <p>FERRAMENTAS DE USINAGEM</p>
+        <p>/ OTIMIZAÇÃO E MELHORIA DE PROCESSOS</p>
       {//<button>COMPRAR ALGUMA COISA</button>
       }
 

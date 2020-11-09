@@ -7,7 +7,7 @@ import image01 from './moldura.png'
 export default props => {
 
   return (
-    <div id="FrameContent" className="FrameContent">
+    <div ref={props.scrollRef} id="FrameContent" className="FrameContent">
 
       <img className="FrameImage" src={image01}></img>
 

@@ -31,7 +31,7 @@ class ContactForm extends React.Component {
 
     return(
       <div className={ContactForm}>
-        <h1>&bull; MANDA ZAP PRO MORED &bull;</h1>
+        <h1>&bull; ENTRE EM CONTATO CONOSCO &bull;</h1>
         <div class="underline">
         </div>
         <div class="icon_wrapper">
@@ -45,29 +45,29 @@ class ContactForm extends React.Component {
         <form id="contact-form" onSubmit={this.handleSubmit.bind(this)} method="POST">
           <div className="name">
             <label htmlFor="name"></label>
-            <input type="text" className="form-control" placeholder="My name is" value={this.state.name} onChange={this.onNameChange.bind(this)} />
+            <input type="text" className="form-control" placeholder="Meu nome é" value={this.state.name} onChange={this.onNameChange.bind(this)} />
           </div>
           <div className="email">
             <label htmlFor="exampleInputEmail1"></label>
-            <input type="email" className="form-control" aria-describedby="emailHelp" placeholder="My email is" value={this.state.email} onChange={this.onEmailChange.bind(this)} />
+            <input type="email" className="form-control" aria-describedby="emailHelp" placeholder="Meu email é" value={this.state.email} onChange={this.onEmailChange.bind(this)} />
           </div>
           <div className="tel">
             <label htmlFor="tel"></label>
-            <input type="text" className="form-control"  placeholder="My number is" value={this.state.tel} onChange={this.onTelChange.bind(this)} />
+            <input type="text" className="form-control"  placeholder="Meu número é" value={this.state.tel} onChange={this.onTelChange.bind(this)} />
           </div>
           <div class="subject">
             <label for="subject"></label>
             <select placeholder="Subject line" name="subject" id="subject_input"  required onChange={this.onSubjectChange.bind(this)}>
-              <option disabled hidden selected>Subject line</option>
-              <option>I'd like to start a project</option>
-              <option>I'd like to ask a question</option>
-              <option>I'd like to make a proposal</option>
+              <option disabled hidden selected>Selecione um assunto</option>
+              <option>Algo relacionado aos serviços</option>
+              <option>Desejo que a Marques Tools me represente</option>
+              <option>Outro</option>
             </select>
           </div>
 
           <div className="form-group">
             <label htmlFor="message"></label>
-            <textarea className="form-control" rows="5" value={this.state.message} placeholder="I'd like to chat about" onChange={this.onMessageChange.bind(this)} />
+            <textarea className="form-control" rows="5" value={this.state.message} placeholder="Mensagem..." onChange={this.onMessageChange.bind(this)} />
           </div>
           <button type="submit" className="btn btn-primary"><strong>ENVIAR MENSAGEM</strong></button>
         </form>

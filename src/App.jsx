@@ -1,7 +1,9 @@
 import './App.css';
-import LandingPage from './LandingPage'
 
-import Page from './Page';
+import Services from './Pages/Services/Page';
+import LandingPage from './LandingPage'
+import { Switch, Route } from "react-router-dom";
+
 
 //Verifica se o aparelho que está se conectando é um mobile.
 function detectar_mobile() {
@@ -13,14 +15,20 @@ function detectar_mobile() {
 
 function App() {
   return (
-
+ /*
     <Page></Page>
-
-    /*
+    <LandingPage mobile={detectar_mobile()}></LandingPage>
+*/
+   
+   
     <div className="App">
-      <LandingPage mobile={detectar_mobile()}></LandingPage>
+      <Switch>
+        <Route exact path="/" component={LandingPage}/>
+        <Route path="/allservices" component={Services}/>
+      </Switch>
     </div>
-    */
+    
+ 
 
   );
 }

@@ -27,7 +27,7 @@ export default props => {
       <BoardDown style={{display: "none"}}></BoardDown>
       <img className={imageTruck} src={image01}></img>
 
-      <FrameContent></FrameContent>
+      <FrameContent scrollRef={props.scrollRef}></FrameContent>
 
 
 

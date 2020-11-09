@@ -1,0 +1,11 @@
+.HeaderMobile {
+  /*border: 3px solid #000;
+  border-radius: 10px;*/
+  display: flex;
+  flex-direction: row;
+  color: #fff;
+
+
+
+}
+

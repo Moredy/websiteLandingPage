@@ -13,7 +13,7 @@ export default props => {
 
   return (
 
-    <div id="Content04" className={Content04}>
+    <div ref={props.scrollRef} id="Content04" className={Content04}>
 
       <ContactForm></ContactForm>
 
